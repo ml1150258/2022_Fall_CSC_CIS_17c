@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=MinGW-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/MinGW-Windows
-CND_ARTIFACT_NAME_Debug=linklist_v4
-CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/linklist_v4
+CND_ARTIFACT_NAME_Debug=marksort_1function_operational_analysis
+CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/marksort_1function_operational_analysis
 CND_PACKAGE_DIR_Debug=dist/Debug/MinGW-Windows/package
-CND_PACKAGE_NAME_Debug=linklistv4.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/linklistv4.tar
+CND_PACKAGE_NAME_Debug=marksort1functionoperationalanalysis.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/marksort1functionoperationalanalysis.tar
 # Release configuration
 CND_PLATFORM_Release=MinGW-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/MinGW-Windows
-CND_ARTIFACT_NAME_Release=linklist_v4
-CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/linklist_v4
+CND_ARTIFACT_NAME_Release=marksort_1function_operational_analysis
+CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/marksort_1function_operational_analysis
 CND_PACKAGE_DIR_Release=dist/Release/MinGW-Windows/package
-CND_PACKAGE_NAME_Release=linklistv4.tar
-CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/linklistv4.tar
+CND_PACKAGE_NAME_Release=marksort1functionoperationalanalysis.tar
+CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/marksort1functionoperationalanalysis.tar
 #
 # include compiler specific variables
 #
