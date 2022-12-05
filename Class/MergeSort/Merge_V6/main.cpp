@@ -36,6 +36,7 @@ void merge(Data *,int,int,int);//Merge 2 Arrays algorithm
 void mrgSort(Data *,int,int);  //Merge Sort Recursions
 void destroy(Data *);          //Deallocate
 void mrkSort(Data *);          //Mark sort/my sorting algorithm
+int mkRndS();                  //4 Byte integer rand out of 2 Byte rand
 
 //Execution Begins Here
 int main(int argc, char** argv) {
@@ -55,12 +56,12 @@ int main(int argc, char** argv) {
     //mrkSort(a);
     int totTime=time(0)-beg;
     cout<<"Total Run Time = "<<totTime<<" Seconds"<<endl;
-    //print(a,perLine);
-    //Deallocate data
+    //De-allocate data
     destroy(a);
     //Exit stage right
     return 0;
 }
+
 
 void mrkSort(Data *a){
     //Utilize mark sort as a comparison
@@ -128,7 +129,13 @@ Data *fill(int n){
     data->sortit=new int[n];
     data->working=new int[n];
     for(int i=0;i<n;i++){
-        data->sortit[i]=rand();
+        data->sortit[i]=mkRndS();
     }
     return data;
+}
+
+int mkRndS(){
+    int temp=rand();
+    temp<<=16;
+    return temp+rand();
 }
